@@ -1,0 +1,65 @@
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/1018376250005393509/1044944353640054854/pexels-martin-pechy-2078266.jpg");
+}
+.jumbotron {
+    background-color: #006400; /* 4cb5f5, b7b8b6, 34675c, b3c100 */
+    color: #F0FFFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding: 65px 30px;
+    border-radius: 5ch;
+  }
+
+  .img{
+    float: left;
+    margin: 20px;
+    width: 2px;
+  }
+
+  .tombol {
+    border: none;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+  }
+
+  .tombol-success {background-color: white;}
+  .tombol-success:hover {background-color: #d57182}
+  
+  .tombol-warning {background-color: white;}
+  .tombol-warning:hover {background-color: #e68a00;}
+  
+  .tombol-danger {background-color: white;}
+  .tombol-danger:hover {background-color: white;}
+  
+  .tombol-info {background-color: white;}
+  .tombol-info:hover {background-color: pink;}
+
+ul {
+    background:#8FBC8F;
+    padding: 0px 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+ }
+
+ul li{
+    float:left;
+}
+
+ul li:hover{
+    background:whitesmoke;
+}
+
+ul li:hover a{
+   color:#000;
+}
+
+ul li a{
+   display: block;
+   padding: 25px;
+   color: #fff;
+   text-decoration: none;
+}
+
